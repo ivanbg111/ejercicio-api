@@ -1,0 +1,13 @@
+Imágenes borrosas: Usaba imágenes de baja resolución, pero las cambié por versiones de alta resolución para mejorar la calidad.
+
+Imágenes repetidas: Implementé un sistema para evitar mostrar imágenes ya vistas guardando sus URLs y verificando antes de cargarlas.
+
+Diseño no responsive: Ajusté el diseño con media queries para que se vean 4 imágenes en pantallas grandes, 2 en medianas y 1 en pequeñas.
+
+Carga de imágenes aleatorias: Evité que las imágenes aleatorias se recargaran en cada búsqueda, asegurando que no se repitan.
+
+Comportamiento del campo de búsqueda: Hice que al vaciar el campo de búsqueda se vuelvan a mostrar las imágenes aleatorias.
+
+Tamaño de las tarjetas: Ajusté las tarjetas para que se adapten al tamaño de las imágenes y no se vean distorsionadas.
+
+Límites de la API: La API tiene un límite de solicitudes, por lo que planeo optimizar la carga de imágenes para evitar bloqueos.
